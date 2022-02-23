@@ -1,0 +1,33 @@
+body
+{
+background-image: linear-gradient(to right top, #33f182, #b8d925cc, #72c118d3, #aa0a0ada, #e26e0e);
+}
+h1{
+    background-color: khaki;
+    color: red;
+}
+p{
+    background: tan;
+    color: olive;
+    font-size: 30px;
+    
+}
+#show_sketch{
+    float: right;
+}
+#my_button_clear{
+    float:left;
+}
+canvas{
+    border: 5px solid rgb(114, 236, 114);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(255, 145, 0);}
+    to{box-shadow: 1px 1px 38px rgb(194, 75, 28);}
+}
